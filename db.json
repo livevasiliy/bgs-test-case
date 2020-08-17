@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "livevasiliy@yandex.ru",
+      "password": "123456",
+      "username": "livevasiliy",
+      "name": "Vasiliy",
+      "photo": "https://via.placeholder.com/200"
+    },
+    {
+      "id": "2",
+      "email": "test@mail.ru",
+      "password": "testtest",
+      "username": "test",
+      "name": "Max",
+      "photo": "https://via.placeholder.com/200"
+    },
+    {
+      "id": 3,
+      "email": "test1@yandex.ru",
+      "password": "654321",
+      "username": "sergey_221",
+      "name": "Sergey",
+      "photo": "https://via.placeholder.com/200"
+    }
+  ]
+}
