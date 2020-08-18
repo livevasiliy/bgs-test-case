@@ -1,7 +1,14 @@
 <template>
   <div>
     <h1>Добро пожаловать на решённое тестовое задание</h1>
-    <a class="github" rel="noreferrer nofollow" href="https://github.com/livevasiliy" target="_blank">Github</a>
+    <a
+      class="github"
+      rel="noreferrer nofollow"
+      href="https://github.com/livevasiliy/bgs-test-case"
+      target="_blank"
+    >
+      Github
+    </a>
   </div>
 </template>
 
@@ -24,9 +31,11 @@
     text-decoration: none;
     outline: none;
   }
+
   .github:hover {
     cursor: pointer;
   }
+
   .github:active,
   .github:visited {
     text-decoration: none;
