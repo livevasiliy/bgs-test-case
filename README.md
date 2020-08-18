@@ -18,25 +18,34 @@
 
 ## Начало работы
 
-В терминале наберите следующие команды. 
+Для начало работы убедитесь, что у вас установлен Node.js & npm (по желанию yarn)
+
+В терминале наберите следующие команды:
+```bash
+$ node -v
+$ npm -v 
+$ yarn -v # если установка будет производиться, через yarn
+```
+
+Если консоле показывают версии, наберите следующие команды: 
 
 ``` bash
 # установка зависимостей
-$ npm install # или yarn install
+$ npm install # или $ yarn install
 
 # serve with hot reload at localhost:3000 - dev версия проекта 
-$ npm run dev
-# в другой консоли запистите 
-$ npm run json-server # или yarn json-server - для запуска mock REST API 
+$ npm run dev # или $ yarn dev
+# в другой консоли запустите 
+$ npm run json-server # или $ yarn json-server - для запуска mock REST API 
 mock REST API будет доступен на localhost:4000
 
 
 # build for production and launch server - prod версия проекта
-$ npm run build
-$ npm start
+$ npm run build # или $ yarn build
+$ npm start # или $ yarn start
 
 # generate static project - сгенерировать статику
-$ npm run generate
+$ npm run generate # или $ yarn generate 
 ```
 
 ##### Mock REST API
