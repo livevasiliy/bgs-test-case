@@ -10,7 +10,6 @@
     <v-btn
       tile
       color="indigo-darken-3"
-      target="_blank"
       @click.prevent="login()"
       v-if="!hasToken"
     >Login
@@ -19,7 +18,6 @@
     <v-btn
       icon
       large
-      target="_blank"
       @click.prevent="logout()"
       v-if="hasToken"
     >
